@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"name": "Category 1",
+		"children": []
+	},
+	{
+		"id": 2,
+		"name": "Category 2",
+		"children": []
+	},
+	{
+		"id": 3,
+		"name": "Category 3",
+		"children": []
+	},
+	{
+		"id": 4,
+		"name": "Category 4",
+		"children": []
+	},
+	{
+		"id": 5,
+		"name": "Category 5",
+		"children": []
+	},
+	{
+		"id": 6,
+		"name": "Category 6",
+		"children": []
+	}	
+]
