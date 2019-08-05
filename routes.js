@@ -32,6 +32,7 @@ html = {
 
 module.exports = {
 	handleRequest(request, response) {
+		response.setHeader('Access-Control-Allow-Origin', '*');
 		response.writeHead(200, {
 			'Content-Type': 'application/json'
 		});
@@ -64,7 +65,5 @@ module.exports = {
 				response.write('Route not found');
 				response.end();
 		}
-
-		response.setHeader('Access-Control-Allow-Origin', '*');
 	}
 }
