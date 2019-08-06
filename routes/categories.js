@@ -11,7 +11,7 @@ exports.id = (req, res) => {
 	let data = categories.filter(obj => obj.id === id);
 	let ids = data[0].products;
 	let response = [];
-	
+
 	for (let i = 0; i < products.length; i++) {
 		for (let j = 0; j < ids.length; j++) {
 			if (products[i].categories[j] === ids[j]) {
@@ -19,6 +19,5 @@ exports.id = (req, res) => {
 			}
 		}
 	}
-
 	console.log(response);
 }
