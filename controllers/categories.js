@@ -2,8 +2,6 @@ const categories = require('../data/categories.json');
 const products = require('../data/products.json');
 
 const listAllCategories = (req, res) => {
-	// let response = categories;
-	// console.log(response);
 	res.status(200).json({data: categories});
 }
 
@@ -20,7 +18,6 @@ const listProductsByCategoryID = (req, res) => {
 			}
 		}
 	}
-	// console.log(response);
 	if (response) {
 		res.status(200).json({data: response});
 		return;
