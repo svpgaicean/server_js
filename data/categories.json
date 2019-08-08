@@ -1,32 +1,79 @@
 [
 	{
 		"id": 1,
-		"name": "Category 1",
-		"products": [1, 2, 7, 8, 12]
+		"name": "FACE",
+		"subcategories": [
+			{ "id": 101, "name": "Creams & gels" },
+			{ "id": 102, "name": "Patches" },
+			{ "id": 103, "name": "Emulsions" },
+			{ "id": 104, "name": "Toners" },
+			{ "id": 105, "name": "Face cleansing" },
+			{ "id": 106, "name": "Make up removal" },
+			{ "id": 107, "name": "Scrubs" },
+			{ "id": 108, "name": "Peeling" },
+			{ "id": 109, "name": "Masks" }
+		]
 	},
 	{
 		"id": 2,
-		"name": "Category 2",
-		"products": [1, 2, 5, 10, 11]
+		"name": "BODY",
+		"subcategories": [
+			{ "id": 201, "name": "Dummy 201" },
+			{ "id": 202, "name": "Dummy 202" },
+			{ "id": 203, "name": "Dummy 203" },
+			{ "id": 204, "name": "Dummy 204" },
+			{ "id": 205, "name": "Dummy 205" }
+		]
 	},
 	{
 		"id": 3,
-		"name": "Category 3",
-		"products": [1, 3, 7, 11]
+		"name": "FOOT",
+		"subcategories": [
+			{ "id": 301, "name": "Dummy 301" },
+			{ "id": 302, "name": "Dummy 302" },
+			{ "id": 303, "name": "Dummy 303" },
+			{ "id": 304, "name": "Dummy 304" },
+			{ "id": 305, "name": "Dummy 305" },
+			{ "id": 306, "name": "Dummy 306" },
+			{ "id": 307, "name": "Dummy 307" }
+		]
 	},
 	{
 		"id": 4,
-		"name": "Category 4",
-		"products": [3, 7, 11]
+		"name": "HANDS",
+		"subcategories": [
+			{ "id": 401, "name": "Dummy 401" },
+			{ "id": 402, "name": "Dummy 402" },
+			{ "id": 403, "name": "Dummy 403" },
+			{ "id": 404, "name": "Dummy 404" }
+		]
 	},
 	{
 		"id": 5,
-		"name": "Category 5",
-		"products": [4, 5, 6, 11]
+		"name": "HAIR",
+		"subcategories": [
+			{ "id": 501, "name": "Dummy 501" },
+			{ "id": 502, "name": "Dummy 502" },
+			{ "id": 503, "name": "Dummy 503" },
+			{ "id": 504, "name": "Dummy 504" },
+			{ "id": 505, "name": "Dummy 505" },
+			{ "id": 506, "name": "Dummy 506" },
+			{ "id": 507, "name": "Dummy 507" },
+			{ "id": 508, "name": "Dummy 508" }
+		]
 	},
 	{
 		"id": 6,
-		"name": "Category 6",
-		"products": [2, 6, 12]
+		"name": "MAKEUP",
+		"subcategories": [
+			{ "id": 601, "name": "Dummy 601" },
+			{ "id": 602, "name": "Dummy 602" },
+			{ "id": 603, "name": "Dummy 603" },
+			{ "id": 604, "name": "Dummy 604" },
+			{ "id": 605, "name": "Dummy 605" },
+			{ "id": 606, "name": "Dummy 606" },
+			{ "id": 607, "name": "Dummy 607" },
+			{ "id": 608, "name": "Dummy 608" }
+		]
 	}	
 ]

@@ -1,6 +1,7 @@
-const products = require('../data/products.json');
+let products = require('../data/products.json');
 
 const listProducts = (req, res) => {
+	products = require('../data/products.json');
 	let response = products.slice(0, 10);
 	if (response) {
 		res.status(200).json({data: response});
@@ -12,6 +13,7 @@ const listProducts = (req, res) => {
 }
 
 const listProductByID = (req, res) => {
+	products = require('../data/products.json');
 	let id = Number(req.params.id);
 	let response = products.filter(obj => obj.id === id);
 

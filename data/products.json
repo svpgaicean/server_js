@@ -4,95 +4,107 @@
 		"name": "Product 1",
 		"description": "Product description",
 		"price": 99.00,
-		"categories": [1, 2, 3], 
+		"category": 1,
+		"subcategories": [101, 102, 103],
 		"rating": 4.5
 	},
 	{
 		"id": 2,
 		"name": "Product 2",
 		"description": "Product description",
-		"price": 99.00,
-		"categories": [1, 2, 6], 
+		"price": 43.00,
+		"category": 2,
+		"subcategories": [201, 202, 205], 
 		"rating": 4.5
 	},
 	{
 		"id": 3,
 		"name": "Product 3",
 		"description": "Product description",
-		"price": 99.00,
-		"categories": [3, 4], 
+		"price": 14.00,
+		"category": 3,
+		"subcategories": [303, 304], 
 		"rating": 4.5
 	},
 	{
 		"id": 4,
 		"name": "Product 4",
 		"description": "Product description",
-		"price": 99.00,
-		"categories": [5], 
+		"price": 66.00,
+		"category": 2,
+		"subcategories": [205], 
 		"rating": 4.5
 	},
 	{
 		"id": 5,
 		"name": "Product 5",
 		"description": "Product description",
-		"price": 99.00,
-		"categories": [2, 5], 
+		"price": 42.00,
+		"category": 1,
+		"subcategories": [102, 105], 
 		"rating": 4.5
 	},
 	{
 		"id": 6,
 		"name": "Product 6",
 		"description": "Product description",
-		"price": 99.00,
-		"categories": [5, 6], 
+		"price": 22.00,
+		"category": 1,
+		"subcategories": [105, 106], 
 		"rating": 4.5
 	},
 	{
 		"id": 7,
 		"name": "Product 7",
 		"description": "Product description",
-		"price": 99.00,
-		"categories": [1, 3], 
+		"price": 79.00,
+		"category": 1,
+		"subcategories": [101, 103], 
 		"rating": 4.5
 	},
 	{
 		"id": 8,
 		"name": "Product 8",
 		"description": "Product description",
-		"price": 99.00,
-		"categories": [1, 4], 
+		"price": 66.99,
+		"category": 4,
+		"subcategories": [401, 404], 
 		"rating": 4.5
 	},
 	{
 		"id": 9,
 		"name": "Product 9",
 		"description": "Product description",
-		"price": 99.00,
-		"categories": [4], 
+		"price": 34.00,
+		"category": 1,
+		"subcategories": [104], 
 		"rating": 4.5
 	},
 	{
 		"id": 10,
 		"name": "Product 10",
 		"description": "Product description",
-		"price": 99.00,
-		"categories": [2], 
+		"price": 22.00,
+		"category": 5,
+		"subcategories": [502], 
 		"rating": 4.5
 	},
 	{
 		"id": 11,
 		"name": "Product 11",
 		"description": "Product description",
-		"price": 99.00,
-		"categories": [2, 3, 5], 
+		"price": 33.00,
+		"category": 1,
+		"subcategories": [102, 103, 105], 
 		"rating": 4.5
 	},
 	{
 		"id": 12,
 		"name": "Product 12",
 		"description": "Product description",
-		"price": 99.00,
-		"categories": [1, 6], 
+		"price": 44.00,
+		"category": 6,
+		"subcategories": [601, 606], 
 		"rating": 4.5
 	}
 ]
